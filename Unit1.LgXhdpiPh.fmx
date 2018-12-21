@@ -1,0 +1,187 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  OnCreate = FormCreate
+  OnClose = FormClose
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 3
+  inherited ToolBar1: TToolBar
+    Size.Width = 450.000000000000000000
+    inherited Edit1: TEdit
+      Align = Client
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 9.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+      OnChange = Edit1Change
+    end
+  end
+  inherited Panel1: TPanel
+    Align = Client
+    Size.Width = 450.000000000000000000
+    Size.Height = 647.000000000000000000
+    inherited Label1: TLabel
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 15.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 15.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1057#1090#1088#1072#1085#1080#1094#1072' '#1087#1086' '#1091#1084#1086#1083#1095#1072#1085#1080#1102
+    end
+    inherited Edit2: TEdit
+      Align = Top
+      KeyboardType = URL
+      Position.X = 10.000000000000000000
+      Position.Y = 43.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited Label2: TLabel
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 15.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 356.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1055#1072#1088#1086#1083#1100
+    end
+    inherited Label3: TLabel
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 15.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 431.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1053#1086#1074#1099#1081' '#1087#1072#1088#1086#1083#1100
+    end
+    inherited Edit3: TEdit
+      Align = Top
+      Password = True
+      Position.X = 10.000000000000000000
+      Position.Y = 384.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited Edit4: TEdit
+      Align = Top
+      Password = True
+      Position.X = 10.000000000000000000
+      Position.Y = 459.000000000000000000
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited Button1: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 15.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 506.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080
+      OnClick = Button1Click
+    end
+    inherited CheckBox1: TCheckBox
+      Align = Top
+      IsChecked = True
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 30.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 15.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 105.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1055#1072#1085#1077#1083#1100' '#1074#1074#1086#1076#1072' '#1072#1076#1088#1077#1089#1072
+    end
+    inherited Button2: TButton
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 30.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 580.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1042#1099#1093#1086#1076
+      OnClick = Button2Click
+    end
+    inherited CheckBox2: TCheckBox
+      Align = Top
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Margins.Bottom = 15.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 153.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.Height = 23.000000000000000000
+      Size.PlatformDefault = False
+      Text = #1047#1072#1073#1083#1086#1082#1080#1088#1086#1074#1072#1090#1100' '#1087#1086#1076#1089#1074#1077#1090#1082#1091' '#1101#1082#1088#1072#1085#1072
+    end
+    inherited Label4: TLabel
+      Position.Y = 206.000000000000000000
+      Size.Width = 430.000000000000000000
+      Text = #1056#1072#1089#1087#1080#1089#1072#1085#1080#1077
+    end
+    inherited ComboBox1: TComboBox
+      Align = Top
+      Items.Strings = (
+        #1054#1090#1082#1083#1102#1095#1077#1085#1086
+        #1057' 8:00 '#1076#1086' 17:00'
+        #1057' 9:00 '#1076#1086' 18:00'
+        #1057' 10:00 '#1076#1086' 19:00')
+      ItemIndex = 0
+      Margins.Left = 10.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 10.000000000000000000
+      Position.X = 10.000000000000000000
+      Position.Y = 234.000000000000000000
+      Size.Width = 430.000000000000000000
+      Size.PlatformDefault = False
+    end
+    inherited Label5: TLabel
+      Position.Y = 281.000000000000000000
+      Size.Width = 430.000000000000000000
+      Text = #1044#1083#1080#1085#1085#1099#1081' '#1076#1077#1085#1100' (+1 '#1095#1072#1089')'
+    end
+    inherited ComboBox2: TComboBox
+      Items.Strings = (
+        #1054#1090#1089#1091#1090#1089#1090#1074#1091#1077#1090
+        #1055#1086#1085#1077#1076#1077#1083#1100#1085#1080#1082
+        #1042#1090#1086#1088#1085#1080#1082
+        #1057#1088#1077#1076#1072
+        #1063#1077#1090#1074#1077#1088#1075
+        #1055#1103#1090#1085#1080#1094#1072
+        #1057#1091#1073#1073#1086#1090#1072)
+      Position.Y = 309.000000000000000000
+      Size.Width = 430.000000000000000000
+    end
+  end
+  inherited Timer1: TTimer
+    Enabled = False
+    Interval = 60000
+    OnTimer = Timer1Timer
+    Left = 416
+    Top = 56
+  end
+end
